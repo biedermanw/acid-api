@@ -10,7 +10,7 @@ RUN useradd -m docker_user
 USER docker_user
 
 COPY app /app
-COPY app/.env .env
+COPY .env .env
 
 EXPOSE 5000
 
